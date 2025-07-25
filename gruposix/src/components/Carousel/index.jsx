@@ -17,10 +17,10 @@ export default function Carousel({children}) {
   return (
     <div className="w-full">
       <div className="flex gap-4 justify-center ">
-        <button onClick={handleLeftClick}>
+        <button onClick={handleLeftClick} aria-label="Botão scroll para a esquerda">
           <i class="fa-solid fa-arrow-left text-2xl p-6 border-2 rounded-full w-[40px] h-[40px] flex justify-center items-center"></i>
         </button>
-        <button onClick={handleRightClick}>
+        <button onClick={handleRightClick} aria-label="Botão scroll para a direita">
           <i class="fa-solid fa-arrow-right text-2xl p-6 border-2 rounded-full w-[40px] h-[40px] flex justify-center items-center"></i>
         </button>
       </div>

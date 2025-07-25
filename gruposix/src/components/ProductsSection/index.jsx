@@ -94,13 +94,13 @@ export default function ProductsSection({
                 <span className="mt-6 text-[18px]">
                   À vista <span>R$ 259,90</span>
                 </span>
-                <span className="text-[40px] text-lime-500">
+                <span className="text-[40px] text-green-700">
                   <span className="text-[18px] text-black">12x</span> R$ 27,85
                 </span>
                 <footer className="flex justify-end mt-6">
                   <button
                     onClick={handleBuyClick}
-                    className="inline-block py-3 px-7 font-semibold uppercase tracking-wider border-2 border-transparent rounded-[30px] bg-[#3CB4E3] text-[#fafafa]"
+                    className="inline-block py-3 px-7 font-semibold uppercase tracking-wider border-2 border-transparent rounded-[30px] bg-[#3CB4E3] text-black"
                   >
                     Comprar
                   </button>
@@ -175,13 +175,13 @@ export default function ProductsSection({
                 <span className="mt-6 text-[18px]">
                   À vista <span>R$ 259,90</span>
                 </span>
-                <span className="text-[40px] text-lime-500">
+                <span className="text-[40px] text-green-700">
                   <span className="text-[18px] text-black">12x</span> R$ 27,85
                 </span>
                 <footer className="flex justify-end mt-6">
                   <button
                     onClick={handleBuyClick}
-                    className="inline-block py-3 px-7 font-semibold uppercase tracking-wider border-2 border-transparent rounded-[30px] bg-[#3CB4E3] text-[#fafafa]"
+                    className="inline-block py-3 px-7 font-semibold uppercase tracking-wider border-2 border-transparent rounded-[30px] bg-[#3CB4E3] text-black"
                   >
                     Comprar
                   </button>
