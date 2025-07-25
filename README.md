@@ -16,6 +16,8 @@
  - [Descrição do Projeto](#descrição-do-projeto)
   
  - [Aplicação](#aplicação)
+
+ - [Métricas](#metricsas)
   
  - [Site no Ar](https://gruposix-7mu6.vercel.app/)
  
@@ -39,4 +41,16 @@ Essa demanda reflete um cenário real de trabalho em nossa empresa, e ao complet
  <p>2: Escolha a opção que você deseja copiar o repositório (recomendado HTTPS)</p>
  <p>3: Em seu terminal, no Git, rode o seguinte comando - git clone URL copiada no Github -</p>
  <p>4: abra o projeto, no vscode para melhor entendimento do código em sua máquina, como também devesse executar o comando no terminal - npm run dev -</p>
+</div>
+
+<div align="left">
+  <h2>Métricas</h2>
+<div>
+<div>
+ <img src="https://github.com/Camila-silv/gruposix/blob/main/gruposix/src/assets/images/desktop.jpg" alt="Ilustração de métricas" title="Ilustração de métricas" loading="lazy"/>
+</div>
+<div>
+ <img src="https://github.com/Camila-silv/gruposix/blob/main/gruposix/src/assets/images/mobile.jpg" alt="Ilustração de métricas" title="Ilustração de métricas" loading="lazy"/>
+</div>
+</div>
 </div>
