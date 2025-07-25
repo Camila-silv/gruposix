@@ -647,6 +647,26 @@ video {
   height: 100%;
 }
 
+.h-\[\] {
+  height: ;
+}
+
+.h-\[325\] {
+  height: 325;
+}
+
+.h-\[314\] {
+  height: 314;
+}
+
+.h-\[315\] {
+  height: 315;
+}
+
+.h-\[315px\] {
+  height: 315px;
+}
+
 .w-\[135px\] {
   width: 135px;
 }
@@ -780,6 +800,11 @@ video {
 .bg-black {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity, 1));
+}
+
+.object-contain {
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .object-cover {

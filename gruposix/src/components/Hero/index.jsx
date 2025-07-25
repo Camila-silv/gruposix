@@ -1,3 +1,6 @@
+import video from "../../assets/videos/video.mp4";
+import metabolic from "../../assets/images/metabolic/metabolic.webp"
+
 export default function Hero() {
   return (
     <div className="container mx-auto px-10">
@@ -12,16 +15,20 @@ export default function Hero() {
         equilibrado.
       </p>
       <div className="mx-auto w-100 flex justify-center">
-  <iframe
-    loading="lazy"
-    width="700"
-    height="315"
-    src="https://www.youtube.com/embed/aNxlWPHDpn0?rel=0&autohide=1&privacy=1"
-    title="YouTube video player"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-  ></iframe>
-</div>
+       
 
+        <video
+          width="700"
+          height="315"
+          controls
+          loading="lazy"
+          className="h-[315px] object-contain"
+          poster={metabolic}
+        >
+          <source src={video} type="video/mp4" />
+          Seu navegador não suporta esse vídeo.
+        </video>
+      </div>
     </div>
   );
 }
