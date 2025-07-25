@@ -1,5 +1,5 @@
 import { createBrowserRouter } from "react-router-dom";
-import { Home } from "./pages";
+import { Home, ThankyouPage } from "./pages";
 import { RootLayout } from "./components";
 
 const router = createBrowserRouter([
@@ -10,7 +10,11 @@ const router = createBrowserRouter([
       {
         index: true,
         element: <Home />,
-      }
+      },
+      {
+        path: "thank-you-page",
+        element: <ThankyouPage />,
+      },
     ],
   },
 ]);
