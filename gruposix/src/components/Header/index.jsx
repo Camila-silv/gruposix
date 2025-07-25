@@ -1,4 +1,5 @@
 import {Link} from "react-router-dom";
+import logo from "../../assets/images/logo.svg"
 
 export default function Header() {
   return (
@@ -14,7 +15,7 @@ export default function Header() {
         <div className="container mx-auto flex justify-center">
           <Link to="/">
             <img
-              src="./src/assets/images/logo.svg"
+              src={logo}
               alt="Logo da Vitasix"
               title="Logo da Vitasix"
               height="40"
